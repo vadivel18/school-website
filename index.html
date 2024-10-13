@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="logo">
+        <nav id="frent-nav">
+            <a target="_blank" href="">home</a>
+            <a target="_blank" href="">about</a>
+            <a target="_blank" href="">skating</a>
+            <a target="_blank" href="">shop</a>
+            <a target="_blank" href="">contact us</a>
+        </nav>
+        <div id="open-button">
+            <i onclick="showModal()" class="fa-solid fa-bars"></i>
+        </div>
+        <nav id="back-nav">
+            <a target="_blank" href=""><i class="fa-solid fa-house"></i> home</a>
+            <a target="_blank" href=""><i class="fa-solid fa-address-card"></i> about</a>
+            <a target="_blank" href=""><i class="fa-solid fa-person-skating"></i> skating</a>
+            <a target="_blank" href=""><i class="fa-solid fa-cart-shopping"></i> shop</a>
+            <a target="_blank" href=""><i class="fa-solid fa-phone"></i> contact us</a>
+            <button onclick="closeModal()" class="button2">Close</button>
+        </nav>
+    </header>
+    <main>
+        <section id="part_one">
+            <div class="top_icon">
+                <img src="top_icon.png" alt="top_icon">
+            </div>
+            <div class="primary_heading">
+                <h1>SKATING <br> BOARD <br> SCHOOL</h1>
+            </div>
+            <div class="banner_pic">
+                <img src="banner_img.png" alt="banner_img">
+            </div>
+            <div class="secondary_heading">
+                <h1>Our Skating class</h1>
+                <p>There are many variation of passages of Lorem</p>
+            </div>
+        </section>
+        <section id="part_two">
+            <div class="main_box1">
+                <div class="box1">
+                    <img src="class1.png" alt="class1">
+                    <h2>Skateboard</h2>
+                    <p>there are many variations of passage of lorem lpsum available, but the majority have suffered alterationthere are many variations</p>
+                </div>
+                <p>READ MORE</p>
+            </div>
+            <div class="main_box2">   
+                <div class="box2">
+                    <img src="class2.png" alt="class2">
+                    <h2>Skateboard</h2>
+                    <p>there are many variations of passage of lorem lpsum available, but the majority have suffered alterationthere are many variations</p>
+                </div>
+                <p>READ MORE</p>
+            </div> 
+            <div class="main_box3">
+                <div class="box3">
+                    <img src="class3.png" alt="">
+                    <h2>Skateboard</h2>
+                    <p>there are many variations of passage of lorem lpsum available, but the majority have suffered alterationthere are many variations</p>
+                </div>
+                <p>READ MORE</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="about">
+            <h1>About <br> Skating <br> School</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Possimus molestias laudantium quo, temporibus hic cumque <br> consequatur numquam perspiciatis a impedit labore,  <br> aliquam ea accusamus debitis odit eius. Sunt <br> praesentium aspernatur aliquam!</p>
+        </div>    
+        <div class="about_pic">
+            <img src="about.png" alt="about">
+        </div>
+    </footer>
+    <script>
+        function showModal(){
+           document.getElementById("back-nav").style.display = "block"
+       }
+
+       function closeModal(){
+           document.getElementById("back-nav").style.display = "none"
+       }
+   </script>
+    
+</body>
+</html>
